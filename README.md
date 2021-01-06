@@ -7,11 +7,7 @@ DESIGN OBJECTIVES
 
 The main objective of this project is to design a 5bit ALU layout which performs addition, subtraction and multiplication of two 5bit numbers. In this design I have implemented 5bit ALU which can perform the following listed operations. Given A and B are two 5-bit numbers.
 
-Addition
-A + B
-Subtraction
-A - B
-Multiplication
-A * B
-Inverting
-A`
+Addition A + B
+Subtraction A - B
+Multiplication A * B
+Inverting A`
