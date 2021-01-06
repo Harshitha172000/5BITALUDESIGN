@@ -1,0 +1,10 @@
+stepsize 50
+h Vdd
+l Gnd
+w a0 a1 a2 a3 a4 s0 s1 s2 s3 s4 p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 i0 i1 i2 i3 i4
+vector in x0 x1 a4 a3 a2 a1 a0 
+logfile outputs.log
+set vlist {1010101 1011010 1011101 1011101 1011110}
+foreach vec $vlist {setvector in $vec ; s}
+logfile
+
